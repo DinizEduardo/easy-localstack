@@ -1,0 +1,9 @@
+{
+  "TopicArn": "arn:aws:sns:sa-east-1:000000000000:topic-exemplo",
+  "Protocol": "sqs",
+  "Endpoint": "arn:aws:sqs:sa-east-1:000000000000:fila-exemplo-queue",
+  "Attributes": {
+    "RawMessageDelivery": "true",
+    "RedrivePolicy": "{\n \"deadLetterTargetArn\": \"arn:aws:sqs:sa-east-1:000000000000:fila-exemplo-error-dlq\"\n}"
+  }
+}

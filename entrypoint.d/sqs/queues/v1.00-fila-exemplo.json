@@ -1,0 +1,11 @@
+{
+  "QueueName": "fila-exemplo-queue",
+  "Attributes": {
+    "FifoQueue": "false",
+    "MaximumMessageSize": "256000",
+    "MessageRetentionPeriod": "345600",
+    "DelaySeconds": "5",
+    "VisibilityTimeout": "30",
+    "RedrivePolicy": "{\n \"deadLetterTargetArn\": \"arn:aws:sqs:sa-east-1:000000000000:fila-exemplo-error-dlq\", \n \"maxReceiveCount\": \"10\"\n}"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "Name": "topic-exemplo",
+  "Attributes": {
+    "FifoTopic": "false",
+    "ContentBasedDeduplication": "true"
+  }
+}

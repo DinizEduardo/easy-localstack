@@ -1,0 +1,10 @@
+{
+  "QueueName": "fila-exemplo-error-dlq",
+  "Attributes": {
+    "FifoQueue": "false",
+    "MaximumMessageSize": "256000",
+    "MessageRetentionPeriod": "345600",
+    "DelaySeconds": "5",
+    "VisibilityTimeout": "30"
+  }
+}
